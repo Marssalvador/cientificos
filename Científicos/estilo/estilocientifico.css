@@ -1,0 +1,209 @@
+body{
+	background-color: #663399;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	margin: 0px;
+}
+
+header{
+	background-color: black;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+	border-bottom: 3px solid #FF8C00;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	font-size: 20px;
+	font-family: 'Supermercado One', cursive;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+
+nav a{
+	color: #20EE3B;
+	text-decoration: none;
+	margin-right: 0.3rem;
+	padding: 0px 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+
+}
+
+table{
+	margin: auto;
+	border: 1.5px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	width: 80%;
+	overflow-x: auto;
+	display: block;
+}
+
+table img{
+	object-fit: cover;
+	width: 100%;
+	height: 20vh;
+	display: block;
+	min-width: 150px;
+}
+
+th{
+	background-color: #20EE3B ;
+	color: black;
+	width: 16%;
+	font-family: 'Oswald', sans-serif;
+}
+
+td{
+	width: 16%;
+
+}
+
+tbody td:nth-child(1){
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+tbody>tr:nth-child(2n){
+	background-color: black;
+}
+
+tbody>tr:nth-child(2n+1){
+	background-color: #696969;
+}
+
+
+header form{
+	display: flex;
+	flex-direction: column;
+	color: #20EE3B ;
+	padding-top: 0rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+header img{
+	width: 7%;
+}
+
+.enlaces a{
+	align-items: center;
+	
+}
+
+.formulario{
+	width: 75%;
+	max-width: 1300px;
+	margin:  auto;
+	border:  1px solid white;
+	border-radius: 10px;
+	padding: 1em 1em 1em 1em;
+	box-shadow: -2px 2px 3px 1px rgba(0,0,0,0.63);
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.usuario{
+	margin-right: 1.4rem;
+}
+
+.buton{
+
+	margin-top: 0.5rem;
+}
+
+p{
+	color: black;
+}
+
+summary{
+	color: black;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10rem;
+}
+
+h2{
+	color: #FF8C00;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+figure{
+	margin: 0px;
+	width: 10%;
+}
+
+.buton{
+	background-color: #20EE3B ;
+	border-radius: 5rem;
+}
+
+.cientificos{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.cientificos>figure{
+	width: 13%;
+	min-width: 300px;
+}
+
+figure img{
+	width: 100%;
+	height: 35vh;
+	object-fit: cover;
+	display: block;
+
+}
+
+figcaption{
+	text-align: center;
+	background-color: black;
+	padding: 0.15rem;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.albert{
+	width: 60%;
+	margin: auto;	
+}
+
+.albertimg{
+	width: 25%;
+	float: right;
+	padding: 0.6rem 0.5rem;
+	border: black 0.5px solid;
+}
+
+.marie{
+	width: 60%;
+	margin: auto;
+}
+
+.marieimg{
+	width: 25%;
+	float: right;
+	padding: 0.6rem 0.5rem;
+	border: black 0.5px solid;
+}
